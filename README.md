@@ -1,6 +1,6 @@
 # taboola-test
 
-### Clone the repo or download zip
+### Clone the repo or download ZIP
 
 ```shell
 git clone https://github.com/EllaB12/app-user.git
