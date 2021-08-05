@@ -1,5 +1,4 @@
 # taboola-test
-## Get started
 
 ### Clone the repo or download zip
 
