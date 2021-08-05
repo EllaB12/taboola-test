@@ -1,7 +1,5 @@
 'use strict';
 
-import { getRecommendations } from './recommendation-service';
-
 function onInit() {
     renderRecommendations();
 }
@@ -30,8 +28,3 @@ function getRecommendationCard(recommendation) {
         </div>
     </a>`
 }
-
-module.exports = {
-    onInit,
-    renderRecommendations
-};

@@ -6,5 +6,3 @@ function getRecommendations() {
     return fetch(recommendationUrl).then(res => res.json())
         .then(data => data.list)
 }
-
-export {getRecommendations};

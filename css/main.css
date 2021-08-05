@@ -5,7 +5,7 @@
 body {
     background: #f4f4f2;
     font-family: 'Montserrat', sans-serif;
-    margin-top: 3rem;
+    margin: 3rem 0 0;
 }
 
 .recommendation-container {
@@ -25,7 +25,7 @@ body {
     width: 100%;
 }
 
-.new1 {
+hr {
     border-top: 2px solid #000000;
     width: 100%;
 }
@@ -74,4 +74,27 @@ body {
     height: 80px;
     object-fit: cover;
     margin-right: .8rem;
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        margin: 1rem ​0 ;
+    }
+    
+    .recommendation-header {
+        padding: 1rem;
+        width: 100vw;
+        margin: 0;
+    }
+
+    .recommendation-list {
+        padding: 0 10px;
+        width: 100vw;
+        grid-template-columns: none;
+    }
+
+    hr {
+        margin: .6rem;
+        width: 100vw;
+    }
 }
